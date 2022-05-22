@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "morgan": "^1.10.0"
+  },
+  "name": "motorbike_rental_express",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuanPhat0603/motorbike_rental_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XuanPhat0603/motorbike_rental_express/issues"
+  },
+  "homepage": "https://github.com/XuanPhat0603/motorbike_rental_express#readme"
+}
