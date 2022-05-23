@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import { Router, Route, Routes } from 'react-router-dom';
+import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div className="bg-red-500">Hello</div>
+    <Router>
+      <Layout>
+        <Routes />
+      </Layout>
+    </Router>
   );
 }
 
