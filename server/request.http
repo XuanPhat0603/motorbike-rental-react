@@ -1,0 +1,17 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "dangtuthieu",
+    "password": "123456",
+    "email": "dangtuthieu@gmail.com"
+}
+
+###
+POST http://localhost:5000/api/type
+Content-Type: application/json
+
+{
+    "name": "Xe tay ga",
+    "description": "1111111"
+}

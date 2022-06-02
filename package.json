@@ -1,0 +1,25 @@
+{
+  "name": "motorbike_rental_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuanPhat0603/motorbike_rental_express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XuanPhat0603/motorbike_rental_express/issues"
+  },
+  "homepage": "https://github.com/XuanPhat0603/motorbike_rental_express#readme",
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  }
+}
